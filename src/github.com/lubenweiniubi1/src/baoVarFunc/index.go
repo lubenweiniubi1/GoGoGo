@@ -8,9 +8,11 @@ import (
 	"lession4"
 	"lession5"
 	"lession6"
+	"lession7"
 )
 
 func main() {
+	//part1: 包、变量和函数
 	if false {
 		lession1.Lession1()
 	}
@@ -34,10 +36,16 @@ func main() {
 		lession5.Lession5_2()
 		lession5.Lession5_3()
 	}
-	if true {
+	if false {
 		lession6.Lession6()
 		fmt.Println(lession6.Pi) //3.14
 		lession6.Lession6_1()
+	}
+
+	//part2 : 控制流程语句for if else switch defer
+	if true {
+		lession7.Lession7()
+		lession7.Lession7_1()
 	}
 
 }
