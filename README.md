@@ -157,3 +157,22 @@ $GOPATH/go.mod exists but should not
 ```
 
 开启模块支持后，并不能与**GOPATH**共存GOPATH中移出即可
+
+## Go tour
+
+问题：
+
+```shell
+index.go:3:8: import "lession1" is a program, not an importable package
+```
+
+解决
+
+本来所有go文件都在一个文件夹中，这里把go文件分成了coin和core两个文件夹。`coin和core文件目录中go文件设置了同样的packege main`，导致报错，**工具包的 package不能是main**
+
+**你的包要放在src下面，并关闭mod模式**
+
+关闭mod以后就可以在bin中运行tour.exe 了
+
+
+
