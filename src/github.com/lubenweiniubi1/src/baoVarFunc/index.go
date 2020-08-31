@@ -78,6 +78,7 @@ func main() {
 	if false {
 		lession8.Lession8()
 		lession8.Lession8_1()
+		lession8.Lession8_2()
 	}
 	if false {
 		lession9.Go()
