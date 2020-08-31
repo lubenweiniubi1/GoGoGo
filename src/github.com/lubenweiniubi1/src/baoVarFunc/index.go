@@ -4,6 +4,9 @@ import (
 	"fmt"
 	"lession1"
 	"lession10"
+	"lession11"
+	"lession12"
+	"lession13"
 	"lession2"
 	"lession3"
 	"lession4"
@@ -70,5 +73,43 @@ func main() {
 	if true {
 		lession10.Lession10()
 		lession10.Lession10_1()
+	}
+	//part3 指针 结构体 映射 slice 数组
+	if false {
+		lession8.Lession8()
+		lession8.Lession8_1()
+	}
+	if false {
+		lession9.Go()
+		lession9.Go1()
+		lession9.Go2()
+		lession9.Go3()
+	}
+	if false {
+		// lession10.Go()
+		// lession10.Go1()
+		// lession10.Go2()
+		// lession10.Go3()
+		// lession10.Go4()
+		// lession10.Go5()
+		// lession10.Go6()
+		// lession10.Go7()
+		// lession10.Go8()
+		lession10.Go9()
+	}
+	if false {
+		// lession11.Go()
+		lession11.Go1()
+	}
+	if false {
+		// lession12.Go()
+		// lession12.Go1()
+		// lession12.Go2()
+		lession12.Go3()
+	}
+	if true {
+		// lession13.Go()
+		// lession13.Go1()
+		lession13.Fibonacci()
 	}
 }
