@@ -7,7 +7,15 @@ import (
 	"lession11"
 	"lession12"
 	"lession13"
+	"lession15"
+	"lession16"
+	"lession17"
+	"lession18"
+	"lession19"
 	"lession2"
+	"lession20"
+	"lession21"
+	"lession23"
 	"lession3"
 	"lession4"
 	"lession5"
@@ -70,7 +78,7 @@ func main() {
 		lession9.Lession9_1()
 		lession9.Lession9_2()
 	}
-	if true {
+	if false {
 		lession10.Lession10()
 		lession10.Lession10_1()
 	}
@@ -108,9 +116,56 @@ func main() {
 		// lession12.Go2()
 		lession12.Go3()
 	}
-	if true {
+	if false {
 		// lession13.Go()
 		// lession13.Go1()
 		lession13.Fibonacci()
+	}
+	if false {
+		lession15.Go()
+		lession15.Go1()
+		lession15.Go2()
+		lession15.Go3()
+	}
+	if false {
+		lession16.Go()
+		lession16.Go1()
+	}
+	if false {
+		lession17.Go()
+		lession17.Go1()
+		lession17.Go2()
+	}
+	if false {
+		lession18.Go()
+		lession18.Go1()
+		lession18.Go2()
+	}
+	if false {
+		lession19.Go()
+		lession19.Go1()
+	}
+	if false {
+		// lession20.Go()
+		lession20.Practice()
+		lession20.Go2()
+		lession20.Practice2()
+	}
+	if false {
+		lession21.Go()
+		lession21.Go4()
+	}
+
+	//并发
+	if false {
+		// lession22.Go()
+		// lession22.Go1()
+		// lession22.Go2()
+		// lession22.Go3()
+		// lession22.Go4()
+		// lession22.Go5()
+	}
+	if true {
+		lession23.Go()
 	}
 }
