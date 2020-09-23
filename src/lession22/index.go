@@ -26,22 +26,13 @@ func say(s string) {
 		time.Sleep(100 * time.Millisecond)
 		fmt.Println(s)
 	}
+
 }
 
 func Go() {
 	// say("world")
 	// say("hello")
 	//去掉go
-	// world
-	// world
-	// world
-	// world
-	// world
-	// hello
-	// hello
-	// hello
-	// hello
-	// hello
 
 	go say("hello")
 	// go say("world") 会两个都不执行
